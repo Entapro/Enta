@@ -15,9 +15,6 @@
         </developer>
     </developers>
 
-    <!-- All POMs extend the Super POM unless explicitly set -->
-    <!--parent>*</parent-->
-
     <groupId>ru.otus</groupId>
     <artifactId>l1.maven</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -40,12 +37,6 @@
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>3.0.2</version>
-        </dependency>-->
 
     </dependencies>
 
