@@ -64,6 +64,8 @@
                             <mainClass>ru.otus.lottery.Main</mainClass>
                         </manifest>
                     </archive>
+                    <finalName>${name}</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
                 <executions>
                     <execution>
@@ -100,11 +102,13 @@
                 <dependencies>
                     <dependency>
                         <groupId>net.sf.proguard</groupId>
-                        <artifactId>proguard</artifactId>
-                        <version>4.4</version>
+                        <artifactId>proguard-base</artifactId>
+                        <version>5.3.3</version>
                     </dependency>
                 </dependencies>
             </plugin>
+
+
         </plugins>
     </build>
 
